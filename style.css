@@ -10,7 +10,7 @@
 }
 nav ul{
     border-style: solid;
-    background-color: sandybrown;
+    background-color: rgb(146, 206, 158);
     border-color:  whitesmoke;
     padding: 11px;
     border-radius: 11px;
@@ -22,7 +22,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: firebrick;
+    color: greenyellow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .back{
@@ -35,4 +35,12 @@ a{
     border-radius: 10px;
     position: fixed;
     border: solid 3px firebrick;    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(8, 99, 8);
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
 }
