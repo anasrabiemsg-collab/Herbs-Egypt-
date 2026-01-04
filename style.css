@@ -25,3 +25,14 @@ a{
     color: firebrick;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.back{
+    width: min-content;
+    height: min-content;
+    background: rgba(255, 255, 255, 0.74);
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    border: solid 3px firebrick;    
+}
